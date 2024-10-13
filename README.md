@@ -24,6 +24,13 @@ sudo apt install tesseract-ocr
 sudo apt install libtesseract-dev
 ```
 
+Then clone this repo and install the requirements:
+```
+git clone https://github.com/leon-seidel/launch_video_data.git
+cd launch_video_data
+pip install -r requirements.txt
+```
+
 ## Examples
 ### Starship IFT-5
 ![Velocity plot](examples/ift5_velo.png?raw=true)
